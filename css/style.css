@@ -1,24 +1,3 @@
-html,
-body,
-div,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-li,
-a,
-main {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
 :root {
   --corBackgroundPrimaria: #5154e7;
   --corBackgroundSecundaria: #fff;
@@ -31,6 +10,10 @@ html {
   min-width: 375px;
 }
 
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .container {
   max-width: 1125px;
   margin: 0 auto;
@@ -39,9 +22,7 @@ html {
 
 header {
   background-color: var(--corBackgroundPrimaria);
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 30px 30px 0 30px;
 }
 
 header .container {
@@ -63,17 +44,18 @@ header img {
 }
 
 header h1 {
-  font-size: 48px;
+  font-size: 3rem;
+  line-height: 60px;
   color: var(--corTextoSecudaria);
 }
 
-header p {
-  font-size: 16px;
+header h2 {
+  font-size: 1rem;
   color: var(--corTextoPrimaria);
 }
 
 header ul {
-  margin-top: 16px;
+  margin-top: 26px;
 }
 
 header ul li {
@@ -81,8 +63,9 @@ header ul li {
 }
 
 header ul li a {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--corTextoSecudaria);
+  text-decoration: none;
 }
 
 main {
@@ -282,12 +265,18 @@ label span {
     padding: 20px;
   }
 
+  header .coluna-esquerda {
+    text-align: center;
+  }
+
+  header .coluna-direita {
+    text-align: center;
+  }
+
   main .container {
     padding: 20px;
   }
-}
 
-@media (max-width:375px) {
   label {
     top: 10px;
     right: 10px;
