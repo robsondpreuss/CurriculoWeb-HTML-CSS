@@ -153,6 +153,14 @@ footer nav .redes-sociais li a:hover img {
   transform: scale(1.2) translateY(-10px);
 }
 
+footer nav ul li a {
+  text-decoration: none;
+}
+
+footer .logo a {
+  text-decoration: none;
+}
+
 /* DARK MODE */
 .ativar-dark {
   width: 50px;

@@ -5,6 +5,10 @@ Projeto desenvolvivo para praticar os conceitos de HTML, CSS e Responsividade. D
 </p>
 
 <p align="center">
+Este projeto foi desenvolvido com os alunos do curso Técnico em Informática do Senac - Santa Rosa.
+</p>
+
+<p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
